@@ -22,4 +22,6 @@ echo '<p>Folks always think it’s tools. I’m of the belief that people make a
 echo '<p>Man, I don’t want to list a bunch of tools. If y’all can’t bother to come over and ask, ain’t no list going to get you in here.</p>';
 
 echo '</div>';
+
+echo "\n<!-- End Main -->\n";
 ?>

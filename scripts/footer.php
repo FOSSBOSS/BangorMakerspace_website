@@ -13,5 +13,6 @@ echo " \n";
 echo " Socials: <a href=\"https://www.facebook.com/thebangormakerspace\">www.facebook.com/thebangormakerspace</a> \n";
 echo " \n";
 
-echo "</center></pre></footer>\n";
+echo "</pre></center></footer>\n";
+echo "\n<!-- End Footer -->\n";
 ?>

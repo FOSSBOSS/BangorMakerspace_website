@@ -1,5 +1,6 @@
+
 <?php include 'scripts/header.php'; ?>
-<body>
+
   <div class="layout">
     <div class="sitemap">
       <?php include 'sitemap.html'; ?>
