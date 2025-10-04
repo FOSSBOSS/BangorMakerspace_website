@@ -1,0 +1,33 @@
+.layout {
+  display: flex;           /* put children side by side */
+  align-items: flex-start; /* align tops */
+}
+
+.sitemap {
+  width: 250px;            /* fixed or % width */
+  padding: 10px;
+  border-right: 1px solid green;
+}
+
+.main {
+  color: green;
+  background-color: black;
+  padding: 10px;
+  font-family: monospace;
+  flex: 1;                 /* take the remaining width */
+  padding: 10px;
+}
+
+.main p {
+  margin: 0 0 1em 0;
+}
+
+footer {
+  text-align: center;
+  color: green;
+  background-color: black;
+  padding: 10px;
+  font-family: monospace;
+  max-width: 1000px;   /* or whatever matches your layout */
+  margin: 0 auto;      /* centers footer within the page */
+}
