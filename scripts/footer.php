@@ -1,6 +1,6 @@
 <?php
 echo "<footer> \n";
-echo '<center><pre style="color: green; background-color: black; padding: 10px;">';
+echo '<center><pre>';
 echo " \n";
 echo " located at 34 Freedom Parkway, in Hermon Maine. \n";
 echo " \n";
@@ -13,6 +13,6 @@ echo " \n";
 echo " Socials: <a href=\"https://www.facebook.com/thebangormakerspace\">www.facebook.com/thebangormakerspace</a> \n";
 echo " \n";
 
-echo "</pre></center></footer>\n";
+echo "</pre></center>\n</footer>\n</body>\n";
 echo "\n<!-- End Footer -->\n";
 ?>
