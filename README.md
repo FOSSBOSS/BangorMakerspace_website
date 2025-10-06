@@ -10,4 +10,4 @@ The goal of this page(s) is to be as simple to format and write a content loader
 Clearly, I dont care about conventional beauty. <br>
 <br>
 <img src="https://raw.githubusercontent.com/FOSSBOSS/BangorMakerspace_website/main/img/yeah.png"
-     alt="Yeah image" width="300" />
+     alt="Yeah image" width="600" />
