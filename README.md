@@ -8,4 +8,5 @@ TODO: include the code that generates sitemap.html lol<br>
 <br>
 The goal of this page(s) is to be as simple to format and write a content loader for. <br>
 Clearly, I dont care about conventional beauty. <br>
-
+<br>
+<img src"img/yeah.png">
