@@ -9,4 +9,5 @@ TODO: include the code that generates sitemap.html lol<br>
 The goal of this page(s) is to be as simple to format and write a content loader for. <br>
 Clearly, I dont care about conventional beauty. <br>
 <br>
-<img src"https://github.com/FOSSBOSS/BangorMakerspace_website/blob/main/img/yeah.png">
+<img src="https://raw.githubusercontent.com/FOSSBOSS/BangorMakerspace_website/main/img/yeah.png"
+     alt="Yeah image" width="300" />
