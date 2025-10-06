@@ -1,5 +1,5 @@
 <?php
-echo '<center><pre>'."\n";
+echo '<center><pre class="rainbow-text">'."\n";
 echo "  ____                                 __  __       _                                      \n";
 echo " |  _ \                               |  \/  |     | |                                     \n";
 echo " | |_) | __ _ _ __   __ _  ___  _ __  | \  / | __ _| | _____ _ __ ___ _ __   __ _  ___ ___ \n";

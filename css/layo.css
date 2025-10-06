@@ -1,3 +1,40 @@
+  /* Rainbow gradient that slides across the text */
+  .rainbow-text {
+    background: linear-gradient(
+      90deg,
+      #ff0040,
+      #ff7a00,
+      #ffd400,
+      #35d04a,
+      #00c9ff,
+      #0055ff,
+      #8a2be2,
+      #ff0040
+    );
+    background-size: 400% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;               /* makes the gradient show through the text */
+    animation: rainbowShift 6s linear infinite;
+    /* keeps monospace layout intact, just in case */
+    font-family: inherit;
+    white-space: pre;
+  }
+
+  @keyframes rainbowShift {
+    0%   { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+  }
+
+  /* Respect users who prefer reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    .rainbow-text {
+      animation: none;
+      background-size: 100% 100%;
+    }
+  }
+/* End rainbows */
+
 .layout {
   display: flex;           /* put children side by side */
   align-items: flex-start; /* align tops */
@@ -29,6 +66,7 @@ footer {
   background-color: black;
   padding: 10px;
   font-family: monospace;
+  font-size: 1.4em; 
   max-width: 1000px;   /* or whatever matches your layout */
   margin: 0 auto;      /* centers footer within the page */
   }
