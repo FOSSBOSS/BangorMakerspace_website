@@ -2,7 +2,7 @@
 echo "<footer> \n";
 echo '<center><pre>';
 echo " \n";
-echo " located at 34 Freedom Parkway, in Hermon Maine. \n";
+echo " located at 34 Freedom Parkway, in Hermon Maine 04401. \n";
 echo " \n";
 echo " Phone: 207-401-5878\n";
 echo " \n";
