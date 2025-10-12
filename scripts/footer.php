@@ -12,7 +12,6 @@ echo " Email: contact@bangormakerspace.org\n";
 echo " \n";
 echo " Socials: <a href=\"https://www.facebook.com/thebangormakerspace\">www.facebook.com/thebangormakerspace</a> \n";
 echo " \n";
-
-echo "</pre></center>\n</footer>\n</body>\n";
+echo "</pre></center>\n</footer>\n </div>\n</div>\n</body>\n</html>\n";
 echo "\n<!-- End Footer -->\n";
 ?>
