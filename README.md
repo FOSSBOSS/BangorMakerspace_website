@@ -1,19 +1,19 @@
 <pre>
 The goal of this page(s) is:
-1. to be as simple** as possible to edit and maintain <br>
-2. Keep it 80s style.<br>
+1. to be as simple** as possible to edit and maintain 
+2. Keep it 80s style.
 
-Clearly, I dont care about conventional beauty. <br>
+Clearly, I dont care about conventional beauty. 
 
 <img src="https://raw.githubusercontent.com/FOSSBOSS/BangorMakerspace_website/main/img/yeah.png"
      alt="Yeah image" width="600" />
 hosted / tested on nginx with php8.1 on debian 13, and ubuntu 20.04 <br>
 TODO: look into rendering issues on windows
 TODO: improve content loader. improve content generation ability.
-TODO: write css based animations. <br>
+TODO: write css based animations.
 TODO: unify formating. I tried some stuff, and havent decided what I like best.<br>
-TODO: make the code that generates sitemap.html ignore some stuff, and easier to autoformat.<br>
-TODO: include the code that generates sitemap.html lol<br>
+TODO: make the code that generates sitemap.html ignore some stuff, and easier to autoformat.
+TODO: include the code that generates sitemap.html lol
 
 *Simplicity may vary
 
