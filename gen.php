@@ -2,8 +2,7 @@
 /*
  needs work, but works.
   */
-include 'scripts/head.php';
-include 'scripts/header.php';
+include 'scripts/init.php'; 
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $page_name = trim($_POST['page_name']);
@@ -21,21 +20,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         // Wrap with same formatting as other pages
         $template = <<<PHP
-<?php include 'scripts/head.php'; ?>
-<div class="layout">
-  <div class="sitemap">
-    <?php include 'sitemap.html'; ?>
-  </div>
-  <div class="main">
-    <?php include 'scripts/header.php'; ?>
+<?php include 'scripts/init.php'; ?>
     <pre>
 $html_content
     </pre>
-    <?php include 'scripts/footer.php'; ?>
-  </div>
-</div>
-</body>
-</html>
+<?php include 'scripts/footer.php'; ?>
+
 PHP;
 
         // Write file
