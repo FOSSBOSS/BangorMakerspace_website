@@ -13,18 +13,26 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (empty($safe_name) || empty($markdown)) {
         echo "<p style='color:red;'>Error: Both fields are required.</p>";
     } else {
-        $file_path = "./$safe_name.html";
+        $file_path = "pages/$safe_name.html";
 
         // Convert markdown to HTML inside a <pre>
-        $html_content = htmlspecialchars($markdown, ENT_QUOTES, 'UTF-8');
+        //$html_content = htmlspecialchars($markdown, ENT_QUOTES, 'UTF-8');
+        $html_content = $markdown;
 
         // Wrap with same formatting as other pages
+        // having an absolute path for scripts would be rad right about now.
         $template = <<<PHP
-<?php include 'scripts/init.php'; ?>
+<?php include '../scripts/head.php'; ?>
+  <div class="layout">
+    <div class="sitemap">
+      <?php include '../sitemap.html'; ?>
+    </div>
+    <div class="main">
+	  <?php include '../scripts/header.php'; ?>
     <pre>
 $html_content
     </pre>
-<?php include 'scripts/footer.php'; ?>
+<?php include '../scripts/footer.php'; ?>
 
 PHP;
 
