@@ -26,7 +26,6 @@ sudo vim /etc/nginx/mime.types
 add a line to render lolcode as text. Add others as needed
 text/plain                            txt lol;
 
-*** pretty sure we dont need that second location tag but whatever Im leaving it for now.
 sudo vim /etc/nginx/sites-enabled/default
 
 server {
@@ -45,11 +44,6 @@ server {
     }
 
     location ~ \.(php|html)$ {
-        include snippets/fastcgi-php.conf;
-        fastcgi_pass unix:/run/php/php8.1-fpm.sock;
-    }
-
-    location ~ \.php$ {
         include snippets/fastcgi-php.conf;
         fastcgi_pass unix:/run/php/php8.1-fpm.sock;
     }
