@@ -61,7 +61,7 @@ sudo apt install php8.1-readline php8.1-fpm
 sudo vim /etc/php/8.1/fpm/pool.d/www.conf
 
 Add html to this line, and uncomment
-security.limit_extensions = .php .php3 .php4 .php5 .php7 .html
+security.limit_extensions = .php .html
 
 sudo systemctl restart php8.1-fpm
 
