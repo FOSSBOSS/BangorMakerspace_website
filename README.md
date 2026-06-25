@@ -51,7 +51,10 @@ server {
     }
 }
 
+Link the sites-enabled to the sites available:
+sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 
+     
 Test config, and reload server
 sudo nginx -t && sudo systemctl reload nginx
 
